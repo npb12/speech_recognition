@@ -953,7 +953,7 @@ class Recognizer(AudioSource):
             'language_code': language
         }
         if preferred_phrases is not None:
-            config['speechContexts'] = [types.SpeechContext(
+            config['SpeechContexts'] = [types.SpeechContext(
                 phrases=preferred_phrases
             )]
         if show_all:
